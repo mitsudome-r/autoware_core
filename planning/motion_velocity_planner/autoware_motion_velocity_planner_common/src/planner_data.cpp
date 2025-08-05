@@ -456,13 +456,13 @@ PlannerData::Pointcloud::filter_and_cluster_point_clouds(
         filter_by_trajectory_param.lateral_margin, traj_poly_param.enable_to_consider_current_pose,
         traj_poly_param.time_to_convergence, traj_poly_param.decimate_trajectory_step_length);
 
-    if (filter_by_trajectory_param.enable_monolithic_crop_box && !pointcloud.empty()) {
+    if (filter_by_trajectory_param.enable_monolithic_crop_box && !ret_pointcloud_ptr->empty()) {
       const auto input_pointcloud_ptr = ret_pointcloud_ptr;
       ret_pointcloud_ptr = crop_by_monolithic_trajectory_polygon(
         input_pointcloud_ptr, filter_by_trajectory_param, traj_polygons, decimated_trajectory,
         vehicle_info);
     }
-    if (filter_by_trajectory_param.enable_multi_polygon_filtering && !pointcloud.empty()) {
+    if (filter_by_trajectory_param.enable_multi_polygon_filtering && !ret_pointcloud_ptr->empty()) {
       const auto input_pointcloud_ptr = ret_pointcloud_ptr;
       ret_pointcloud_ptr = autoware::motion_velocity_planner::filter_by_multi_trajectory_polygon(
         input_pointcloud_ptr, traj_polygons);
@@ -470,13 +470,13 @@ PlannerData::Pointcloud::filter_and_cluster_point_clouds(
   }
 
   const auto & downsample_params = preprocess_params_.downsample_by_voxel_grid;
-  if (downsample_params.enable_downsample && !pointcloud.empty()) {
+  if (downsample_params.enable_downsample && !ret_pointcloud_ptr->empty()) {
     const auto input_pointcloud_ptr = ret_pointcloud_ptr;
     ret_pointcloud_ptr = downsample_by_voxel_grid(input_pointcloud_ptr, downsample_params);
   }
 
   const auto & clustering_param = preprocess_params_.euclidean_clustering;
-  if (clustering_param.enable_clustering && !pointcloud.empty()) {
+  if (clustering_param.enable_clustering && !ret_pointcloud_ptr->empty()) {
     ret_clusters = make_cluster_indices(ret_pointcloud_ptr, clustering_param);
   } else {
     ret_clusters = make_individual_cluster_indices(ret_pointcloud_ptr);
