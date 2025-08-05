@@ -444,15 +444,15 @@ PlannerData::Pointcloud::filter_and_cluster_point_clouds(
         raw_trajectory, current_odometry.pose.pose, ego_nearest_dist_threshold,
         ego_nearest_yaw_threshold, traj_poly_param.decimate_trajectory_step_length,
         traj_poly_param.goal_extended_trajectory_length);
-    const double trajectory_crop_length =
+    const double trajectory_trim_length =
       filter_by_trajectory_param.min_trajectory_length +
       min_deceleration_distance * filter_by_trajectory_param.braking_distance_scale_factor;
-    const auto & dist_cropped_trajectory = motion_utils::cropForwardPoints(
-      decimated_trajectory, decimated_trajectory.front().pose.position, 0, trajectory_crop_length);
+    const auto & trimed_trajectory = motion_utils::cropForwardPoints(
+      decimated_trajectory, decimated_trajectory.front().pose.position, 0, trajectory_trim_length);
 
     const auto traj_polygons =
       autoware::motion_velocity_planner::polygon_utils::create_one_step_polygons(
-        dist_cropped_trajectory, vehicle_info, current_odometry.pose.pose,
+        trimed_trajectory, vehicle_info, current_odometry.pose.pose,
         filter_by_trajectory_param.lateral_margin, traj_poly_param.enable_to_consider_current_pose,
         traj_poly_param.time_to_convergence, traj_poly_param.decimate_trajectory_step_length);
 
