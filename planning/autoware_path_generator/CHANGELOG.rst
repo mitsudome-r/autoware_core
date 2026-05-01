@@ -63,8 +63,8 @@ Changelog for package autoware_path_generator
 * feat(autoware_path_generator): use autoware_trajectory for cropping bounds (`#349 <https://github.com/autowarefoundation/autoware_core/issues/349>`_)
 * Contributors: Kazunori-Nakajima, Mamoru Sobue, Mitsuhiro Sakamoto, Yukinari Hisaki
 
-Forthcoming
------------
+1.8.0 (2026-05-01)
+------------------
 * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
 * feat(autoware_trajectory): handle sparse points with interpolator fallback (`#994 <https://github.com/mitsudome-r/autoware_core/issues/994>`_)
   * feat(trajectory): handle sparse points with interpolator fallback

@@ -5,8 +5,8 @@ Changelog for package autoware_behavior_velocity_planner
 1.1.0 (2025-05-01)
 ------------------
 
-Forthcoming
------------
+1.8.0 (2026-05-01)
+------------------
 * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
 * chore(planning, bvp): remove unused lanelet2_extension header (`#902 <https://github.com/mitsudome-r/autoware_core/issues/902>`_)
   * remove unused lanelet2_extension in bvp modules

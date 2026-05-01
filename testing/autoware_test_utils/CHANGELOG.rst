@@ -27,8 +27,8 @@ Changelog for package autoware_test_utils
 * chore: include iostream and link yaml-cpp for Jazzy (`#351 <https://github.com/autowarefoundation/autoware_core/issues/351>`_)
 * Contributors: Mitsuhiro Sakamoto, Tim Clephas
 
-Forthcoming
------------
+1.8.0 (2026-05-01)
+------------------
 * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
 * feat(path_generator): use `route_manager` to handle route data (`#803 <https://github.com/mitsudome-r/autoware_core/issues/803>`_)
   Co-authored-by: Mamoru Sobue <hilo.soblin@gmail.com>

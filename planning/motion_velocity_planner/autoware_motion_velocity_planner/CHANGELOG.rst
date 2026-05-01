@@ -5,8 +5,8 @@ Changelog for package autoware_motion_velocity_planner
 1.1.0 (2025-05-01)
 ------------------
 
-Forthcoming
------------
+1.8.0 (2026-05-01)
+------------------
 * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
 * test(autoware_motion_velocity_planner): add unit tests (`#518 <https://github.com/mitsudome-r/autoware_core/issues/518>`_)
   * test(autoware_motion_velocity_planner): add unit tests

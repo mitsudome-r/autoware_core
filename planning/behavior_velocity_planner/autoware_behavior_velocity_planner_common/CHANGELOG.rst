@@ -5,8 +5,8 @@ Changelog for package autoware_behavior_velocity_planner_common
 1.1.0 (2025-05-01)
 ------------------
 
-Forthcoming
------------
+1.8.0 (2026-05-01)
+------------------
 * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
 * feat(behavior_velocity_planner_common): add `Trajectory` class version of `smoothPath()` (`#1022 <https://github.com/mitsudome-r/autoware_core/issues/1022>`_)
   * add Trajectory class version of `smoothPath()`

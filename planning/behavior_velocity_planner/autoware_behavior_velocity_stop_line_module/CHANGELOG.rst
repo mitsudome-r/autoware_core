@@ -8,8 +8,8 @@ Changelog for package autoware_behavior_velocity_stop_line_module
   refactor(autoware_trajectory)!: move everything to namespace experimental
 * Contributors: Mamoru Sobue
 
-Forthcoming
------------
+1.8.0 (2026-05-01)
+------------------
 * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
 * fix(autoware_behavior_velocity_stop_line_module): fix bugprone-unchecked-optional-access (`#900 <https://github.com/mitsudome-r/autoware_core/issues/900>`_)
   * fix(autoware_behavior_velocity_stop_line_module): fix bugprone-unchecked-optional-access warnings

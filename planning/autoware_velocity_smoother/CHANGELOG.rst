@@ -5,8 +5,8 @@ Changelog for package autoware_velocity_smoother
 1.1.0 (2025-05-01)
 ------------------
 
-Forthcoming
------------
+1.8.0 (2026-05-01)
+------------------
 * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
 * feat(trajectory): refactor velocity_smoother (analytical_jerk_constrained_smoother) to experimental trajectory (`#762 <https://github.com/mitsudome-r/autoware_core/issues/762>`_)
   * feat refactor analytical_jerk_constrained_smoother

@@ -18,8 +18,8 @@ Changelog for package autoware_lanelet2_utils
   ---------
 * Contributors: Mamoru Sobue, Yutaka Kondo
 
-Forthcoming
------------
+1.8.0 (2026-05-01)
+------------------
 * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
 * chore: sync files (`#845 <https://github.com/mitsudome-r/autoware_core/issues/845>`_)
   * chore: sync files

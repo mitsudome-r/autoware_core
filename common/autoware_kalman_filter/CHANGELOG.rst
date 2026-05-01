@@ -24,8 +24,8 @@ Changelog for package autoware_kalman_filter
   ---------
 * Contributors: RyuYamamoto, Yutaka Kondo
 
-Forthcoming
------------
+1.8.0 (2026-05-01)
+------------------
 * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
 * perf(autoware_kalman_filter): optimize `updateWithDelay` by replacing sparse matrix operations (`#739 <https://github.com/mitsudome-r/autoware_core/issues/739>`_)
   * Optimize `updateWithDelay` by replacing sparse matrix operations with block arithmetic

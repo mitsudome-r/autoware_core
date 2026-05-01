@@ -2,8 +2,8 @@
 Changelog for package autoware_euclidean_cluster_object_detector
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.8.0 (2026-05-01)
+------------------
 * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
 * fix(autoware_euclidean_cluster_object_detector): fix bugprone-narrowing-conversions warnings (`#938 <https://github.com/mitsudome-r/autoware_core/issues/938>`_)
   * fix(autoware_euclidean_cluster_object_detector): fix bugprone-narrowing-conversions warnings

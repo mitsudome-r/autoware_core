@@ -2,8 +2,8 @@
 Changelog for package autoware_agnocast_wrapper
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.8.0 (2026-05-01)
+------------------
 * chore: align package versions to 1.7.0 and reset changelogs
 * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
 * docs(autoware_agnocast_wrapper): use FindPackageShare and PathJoinSubstitution in Python launch examples (`#999 <https://github.com/mitsudome-r/autoware_core/issues/999>`_)

@@ -11,8 +11,8 @@ Changelog for package autoware_route_handler
   Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
 * Contributors: Mert Çolak
 
-Forthcoming
------------
+1.8.0 (2026-05-01)
+------------------
 * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
 * feat(autoware_route_handler): add test for validating the `route_handler`'s reference path algorithm  (`#986 <https://github.com/mitsudome-r/autoware_core/issues/986>`_)
   Co-authored-by: Junya Sasaki <j2sasaki1990@gmail.com>

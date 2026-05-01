@@ -11,8 +11,8 @@ Changelog for package autoware_crop_box_filter
   Co-authored-by: Yutaka Kondo <yutaka.kondo@youtalk.jp>
 * Contributors: Amadeusz Szymko
 
-Forthcoming
------------
+1.8.0 (2026-05-01)
+------------------
 * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
 * refactor(autoware_core): add USE_SCOPED_HEADER_INSTALL_DIR to sensing packages (`#985 <https://github.com/mitsudome-r/autoware_core/issues/985>`_)
   Co-authored-by: github-actions <github-actions@github.com>

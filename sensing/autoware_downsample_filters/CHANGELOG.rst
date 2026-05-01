@@ -2,8 +2,8 @@
 Changelog for package autoware_downsample_filters
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.8.0 (2026-05-01)
+------------------
 * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
 * fix(autoware_downsample_filters): typo (`#1053 <https://github.com/mitsudome-r/autoware_core/issues/1053>`_)
 * refactor(autoware_core): add USE_SCOPED_HEADER_INSTALL_DIR to sensing packages (`#985 <https://github.com/mitsudome-r/autoware_core/issues/985>`_)

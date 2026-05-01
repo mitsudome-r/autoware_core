@@ -2,8 +2,8 @@
 Changelog for package autoware_ndt_scan_matcher
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.8.0 (2026-05-01)
+------------------
 * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
 * fix(ndt_scan_matcher): fix concurrency bugs caused by missing locks by introducing Guarded class (`#1030 <https://github.com/mitsudome-r/autoware_core/issues/1030>`_)
   * Removed `setInputSource`

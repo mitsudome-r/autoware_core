@@ -11,8 +11,8 @@ Changelog for package autoware_ground_filter
   Co-authored-by: Yutaka Kondo <yutaka.kondo@youtalk.jp>
 * Contributors: Amadeusz Szymko
 
-Forthcoming
------------
+1.8.0 (2026-05-01)
+------------------
 * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
 * fix(ground_filter): remove unused `grid_id` (`#1025 <https://github.com/mitsudome-r/autoware_core/issues/1025>`_)
   * fix(ground_filter): remove unused `grid_id`

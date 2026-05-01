@@ -5,8 +5,8 @@ Changelog for package autoware_core_planning
 1.1.0 (2025-05-01)
 ------------------
 
-Forthcoming
------------
+1.8.0 (2026-05-01)
+------------------
 * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
 * fix: launch params (`#975 <https://github.com/mitsudome-r/autoware_core/issues/975>`_)
 * Contributors: Mete Fatih Cırıt, github-actions

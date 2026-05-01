@@ -50,8 +50,8 @@ Changelog for package autoware_trajectory
 * chore: include iostream and link yaml-cpp for Jazzy (`#351 <https://github.com/autowarefoundation/autoware_core/issues/351>`_)
 * Contributors: Mamoru Sobue, Tim Clephas, Yukinari Hisaki
 
-Forthcoming
------------
+1.8.0 (2026-05-01)
+------------------
 * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
 * feat(autoware_trajectory): add max utilities (`#1051 <https://github.com/mitsudome-r/autoware_core/issues/1051>`_)
   * feat(autoware_trajectory): add max utilities

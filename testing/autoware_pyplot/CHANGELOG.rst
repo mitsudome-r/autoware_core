@@ -10,8 +10,8 @@ Changelog for package autoware_pyplot
   ---------
 * Contributors: Mamoru Sobue
 
-Forthcoming
------------
+1.8.0 (2026-05-01)
+------------------
 * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
 * feat(autoware_pyplot): support horizon and vertical line (`#865 <https://github.com/mitsudome-r/autoware_core/issues/865>`_)
 * Contributors: Zulfaqar Azmi, github-actions

@@ -9,8 +9,8 @@ Changelog for package autoware_component_interface_specs
 * docs(autoware_component_interface_specs): fix `README.md` (`#363 <https://github.com/autowarefoundation/autoware_core/issues/363>`_)
 * Contributors: Takagi, Isamu, Yutaka Kondo
 
-Forthcoming
------------
+1.8.0 (2026-05-01)
+------------------
 * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
 * refactor(autoware_core): add USE_SCOPED_HEADER_INSTALL_DIR to common and testing packages (`#967 <https://github.com/mitsudome-r/autoware_core/issues/967>`_)
   Co-authored-by: github-actions <github-actions@github.com>
