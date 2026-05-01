@@ -2,8 +2,8 @@
 Changelog for package autoware_map_projection_loader
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.8.0 (2026-05-01)
+------------------
 * chore: align package versions to 1.7.0 and reset changelogs
 * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
 * refactor(autoware_core): add USE_SCOPED_HEADER_INSTALL_DIR to map packages (`#976 <https://github.com/mitsudome-r/autoware_core/issues/976>`_)

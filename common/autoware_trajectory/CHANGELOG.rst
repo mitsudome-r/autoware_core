@@ -2,8 +2,8 @@
 Changelog for package autoware_trajectory
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.8.0 (2026-05-01)
+------------------
 * chore: align package versions to 1.7.0 and reset changelogs
 * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
 * feat(autoware_trajectory): add max utilities (`#1051 <https://github.com/mitsudome-r/autoware_core/issues/1051>`_)
