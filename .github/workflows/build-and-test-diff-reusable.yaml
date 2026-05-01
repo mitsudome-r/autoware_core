@@ -207,7 +207,7 @@ jobs:
 
       - name: Run clang-tidy
         if: ${{ steps.get-changed-files.outputs.changed-files != '' }}
-        uses: autowarefoundation/autoware-github-actions/clang-tidy@v1
+        uses: mvanhorn/autoware-github-actions/clang-tidy@fix/405-apply-ignore-to-target-files
         with:
           rosdistro: ${{ inputs.rosdistro }}
           cache-key-element: build-and-test-diff${{ inputs.above && '-above' || '' }}${{ inputs.enable-agnocast && '-agnocast' || '' }}
