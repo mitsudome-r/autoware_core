@@ -2,6 +2,9 @@
 Changelog for package autoware_adapi_adaptors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 1.7.0 (2026-02-14)
 ------------------
 

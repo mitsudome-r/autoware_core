@@ -2,6 +2,9 @@
 Changelog for package autoware_sample_sensor_kit_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 1.7.0 (2026-02-14)
 ------------------
 * chore: match all package versions and remove old CHANGELOG.rst

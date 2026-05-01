@@ -2,6 +2,9 @@
 Changelog for package autoware_core_api
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 1.7.0 (2026-02-14)
 ------------------
 

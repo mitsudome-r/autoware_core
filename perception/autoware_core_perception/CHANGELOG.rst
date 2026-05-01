@@ -5,6 +5,9 @@ Changelog for package autoware_core_perception
 1.1.0 (2025-05-01)
 ------------------
 
+Forthcoming
+-----------
+
 1.7.0 (2026-02-14)
 ------------------
 
